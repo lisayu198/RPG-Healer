@@ -14,7 +14,7 @@ private int agility;
 private int wisdom;
 
     //constructor for higher level characters
-    public Warrior(String n, int lev) {
+    public Healer(String n, int lev) {
         name = n;
         level = 1;
         maxHealth = 16;
@@ -28,7 +28,7 @@ private int wisdom;
     }
 
     //constructor for higher level characters
-    public Warrior(String n, int lev) {
+    public Healer(String n, int lev) {
         name = n;
         level = lev;
         maxHealth = 16*lev;
